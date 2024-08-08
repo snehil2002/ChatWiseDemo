@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeScreenFragment">
+
+    <fragment
+        android:id="@+id/homeScreenFragment"
+        android:name="com.example.chatwisedemo.screens.HomeScreenFragment"
+        android:label="Home Screen"
+        tools:layout="@layout/home_screen">
+        <action android:id="@+id/home_to_productlist"
+            app:destination="@id/productListScreenFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailScreenFragment"
+        android:name="com.example.chatwisedemo.screens.DetailScreenFragment"
+        android:label="Detail Screen"
+        tools:layout="@layout/product_details_screen">
+        <argument android:name="productId"
+            app:argType="string"></argument>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/productListScreenFragment"
+        android:name="com.example.chatwisedemo.screens.ProductListScreenFragment"
+        android:label="ProductList Screen"
+        tools:layout="@layout/product_list_screen">
+        <action android:id="@+id/productlist_to_detail"
+            app:destination="@id/detailScreenFragment"/>
+    </fragment>
+
+
+
+</navigation>
