@@ -1,4 +1,4 @@
-APK LINK = https://drive.google.com/file/d/10T9vv-COnWczjdC5bxLb4Gknm-fVB8gZ/view?usp=drive_link
+APK LINK = https://drive.google.com/file/d/1t8ufcb85sHIqzduccs7YF1Puyzd_dNRx/view?usp=drive_link
 
 SCREENSHOTS ->
 ![Screenshot_2024-08-08-18-38-40-938_com example chatwisedemo](https://github.com/user-attachments/assets/c9d8d3d0-cf7a-4c30-a725-d68231b5c23a)
